@@ -9,3 +9,15 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+# Keystores & signing
+*.jks
+*.keystore
+signing.properties
+
+# Secrets & configuration
+*.env
+*.env.*
+secrets.properties
+google-services.json
+
